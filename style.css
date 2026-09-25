@@ -1,0 +1,27 @@
+.body {
+  margin: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  /* Center the card horizontally */
+  margin: 0 auto;
+
+  /* Use flexbox for layout makit it side by side */
+  display: flex;
+
+  /* Space out the content evenly */
+  justify-content: space-around;
+
+  text-align: center; /* Center the text inside the card */
+  color: #2b2839; /* Set the text color */
+  background: #f0ebd8; /* Set the background color */
+  border-bottom: 6px solid #748cab; /* Set the bottom border */
+
+  padding: 20px;
+  width: 400px;
+}
